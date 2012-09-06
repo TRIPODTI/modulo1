@@ -11,10 +11,7 @@ group :development do
 
 end
 
-group :production do
-  gem 'mysql2'
 
-end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -34,6 +31,7 @@ gem 'jquery-rails'
 #insertar también para Heroku
 group :production do
   gem 'pg', '0.14.1'
+  gem 'mysql2'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

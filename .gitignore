@@ -15,9 +15,3 @@
 /tmp
 
 #ignore other undefined files
-doc/
-*.swp
-*~
-.project
-.DS_store
-.idea
